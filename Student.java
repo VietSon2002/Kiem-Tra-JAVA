@@ -50,16 +50,3 @@ public class Student extends Person implements Comparator<Student>, Serializable
     {
         this.enrolledDate = enrolledDate;
     }
-
-    
-    @Override
-    public int compare(Student o1, Student o2)
-    {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    void getBirth(java.sql.Date date)
-    {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-}
